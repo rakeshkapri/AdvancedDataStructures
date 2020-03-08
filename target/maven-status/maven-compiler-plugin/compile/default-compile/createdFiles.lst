@@ -1,0 +1,9 @@
+algorithms\common\SortingUtils.class
+algorithms\sorting\QuickSort.class
+algorithms\sorting\BubbleSort.class
+algorithms\sorting\InsertionSort.class
+algorithms\sorting\RangeSorting.class
+algorithms\basic\GCD.class
+algorithms\sorting\SelectionSort.class
+algorithms\basic\HanoiTower.class
+algorithms\sorting\MergeSort.class
