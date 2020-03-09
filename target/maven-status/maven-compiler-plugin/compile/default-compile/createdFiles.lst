@@ -1,6 +1,8 @@
 algorithms\common\SortingUtils.class
 algorithms\sorting\QuickSort.class
+algorithms\trees\Node.class
 algorithms\sorting\BubbleSort.class
+algorithms\trees\BinarySearchTree.class
 algorithms\sorting\InsertionSort.class
 algorithms\sorting\RangeSorting.class
 algorithms\basic\GCD.class

@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24207d77-cfb8-4033-a75a-1bd9b09353ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AdvancedDataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/sorting/RangeSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/trees/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/trees/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/basic/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/basic/GCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/basic/HanoiTower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/basic/HanoiTower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/common/SortingUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/common/SortingUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/sorting/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/sorting/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithms/sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algorithms/sorting/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ADA-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ADA-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +47,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.RangeSorting">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSort" />
-      <module name="ADA" />
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.trees.BinarySearchTree" />
+      <module name="AdvancedDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="algorithms.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.basic.GCD" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSort" />
       <module name="ADA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.basic.*" />
+          <option name="PATTERN" value="algorithms.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GCD" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.RangeSorting" />
+      <item itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.RangeSorting" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.GCD" />
       </list>
     </recent_temporary>
   </component>
@@ -160,30 +150,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583693362486" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1583693702248">
+    <state width="417" height="458" key="DebuggerActiveHint" timestamp="1583711971241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583693702248" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1583693702247">
+    <state width="417" height="458" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1583711971241" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1583711988741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583693702247" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1583693702247">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1583711988741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583693702247" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1583693702248">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1583711988741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583693702248" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1583711988741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1583711988741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1583711988741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1583711988741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1583711988741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583711988741" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1583693405647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583693405647" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583692424298">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583709177101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583692424298" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583709177101" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583709272953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583709272953" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -198,7 +212,22 @@
           <line>17</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/trees/BinarySearchTree.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/trees/BinarySearchTree.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AdvancedDataStructures$BinarySearchTree.ic" NAME="BinarySearchTree Coverage Results" MODIFIED="1583711860340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>algorithms.trees.*</FILTER>
+    </SUITE>
   </component>
 </project>
