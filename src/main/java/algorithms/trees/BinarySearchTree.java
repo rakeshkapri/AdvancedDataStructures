@@ -1,5 +1,6 @@
 package algorithms.trees;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 public class BinarySearchTree {
