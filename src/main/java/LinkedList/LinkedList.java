@@ -46,10 +46,12 @@ public class LinkedList {
         list.addElement(4);
         list.addElement(5);
 
+        System.out.println("---------------Printing link list after insertion-----------------");
         list.print();
 
         list.reverse();
 
+        System.out.println("---------------Printing link list after reversing-----------------");
         list.print();
     }
 }
